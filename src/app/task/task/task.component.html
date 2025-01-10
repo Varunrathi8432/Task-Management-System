@@ -1,7 +1,7 @@
 <app-card>
     <article>
         <h2>{{usertask.title}}</h2>
-        <time>{{usertask.dueDate}}</time>
+        <time>{{usertask.dueDate | date:"fullDate" }}</time>
         <p>{{usertask.summary}}</p>
         <p class="actions">
             <button (click)="onComplete()">Complete</button>

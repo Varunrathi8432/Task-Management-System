@@ -18,7 +18,8 @@ main {
   
   #fallback {
     font-weight: bold;
-    font-size: 1.15rem;
+    padding: 1rem;
+    background-color: #3a2c54;
     margin: 0;
     text-align: center;
   }

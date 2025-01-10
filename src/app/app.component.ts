@@ -5,10 +5,11 @@ import { UserComponent } from "./user/user.component";
 import { TasksComponent } from "./task/tasks/tasks.component";
 
 import { DUMMY_USERS } from './dummy-users';
+import { CardComponent } from "./shared/card/card.component";
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, UserComponent, TasksComponent],
+  imports: [HeaderComponent, UserComponent, TasksComponent, CardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

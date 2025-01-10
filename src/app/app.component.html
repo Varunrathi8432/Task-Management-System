@@ -11,6 +11,8 @@
     @if (selectUser) {
         <app-tasks [userId]="selectUser.id" [name]="selectUser.name"></app-tasks>
     } @else {
-        <p id="fallback">Select a user to see their tasks</p>
+        <app-card>
+            <p id="fallback">Select a user to see their tasks</p>
+        </app-card>
     }
 </main>
