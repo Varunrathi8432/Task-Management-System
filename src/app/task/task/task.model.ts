@@ -5,3 +5,9 @@ export interface userTasks{
   summary:string;
   dueDate:string;
 };
+
+export interface newTask{
+  title:string;
+  summary:string;
+  date:string;
+};
